@@ -58,6 +58,7 @@ def lists():
     # We can convert a single character to its underlying integer code (e.g., its ASCII byte value)
     # by passing it to the built-in ord function. Generate a list of these integers to represent
     # each character of the string "Stevens" using list comprehension.
+    
 
     return p, r, c, d, o
 
@@ -95,8 +96,8 @@ def dictionaries():
     # Use the sort() function to get sorted keys of amazing_grace in alphabetically ascending order
     k = p.keys()
     a = list(k)
-    p.sort()
-    p
+    a.sort()
+    
     return a, f, p, k
 
 numbers_and_strings()
