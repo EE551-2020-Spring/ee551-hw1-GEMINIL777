@@ -58,7 +58,8 @@ def lists():
     # We can convert a single character to its underlying integer code (e.g., its ASCII byte value)
     # by passing it to the built-in ord function. Generate a list of these integers to represent
     # each character of the string "Stevens" using list comprehension.
-    
+    o = []
+    o = o + ([ord(p[0][k])for k in [0, 1, 2, 3, 4, 5, 6]]) 
 
     return p, r, c, d, o
 
